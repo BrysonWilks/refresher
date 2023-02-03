@@ -5,3 +5,7 @@ from django.http import HttpResponse
 
 def test(request):
     return HttpResponse("Hello World! :)")
+
+def home(request):
+    return HttpResponse("This is your home page woo :)")
+
